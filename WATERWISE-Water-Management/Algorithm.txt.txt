@@ -1,0 +1,24 @@
+1. Start the program.
+2. Declare a 2D array usage[5][7] and a 1D array dailyTarget[5].
+3. Input daily water consumption for all 5 zones and their daily targets.
+4. Validate all inputs and re-enter invalid values.
+5. Display the complete water consumption table.
+6. For each zone:
+   - Calculate weekly total and daily average.
+   - Find the highest consumption and its day.
+   - Count over-limit days and calculate total excess water.
+   - Detect sudden spikes greater than 140% of the previous day.
+   - Calculate unique alert days.
+7. Generate and display the water audit report.
+8. Rank all five zones based on total excess water, giving equal ranks for ties.
+9. Display conservation suggestions for each zone.
+10. Display the menu:
+    - 1 – Display Water Data
+    - 2 – Generate Audit Report
+    - 3 – Rank Zones
+    - 4 – Conservation Actions
+    - 5 – Exit
+11. Allow options 3 and 4 only after generating the audit report.
+12. Repeat the menu until the user selects Exit.
+13. Stop the program.
+This algorithm is short, easy to write in your record, and covers the main requirements of your WATERWISE assignment.
